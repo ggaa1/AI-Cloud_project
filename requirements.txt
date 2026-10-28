@@ -1,0 +1,7 @@
+paddlepaddle==3.2.2
+paddleocr==3.7.0
+numpy
+Pillow
+python-dotenv
+google-genai
+anthropic

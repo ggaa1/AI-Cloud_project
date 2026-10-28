@@ -1,0 +1,56 @@
+{
+  "image_path": "cards/2025-12-23-15_34_36-01(이민균).jpg",
+  "ocr_raw_text": "이민균\nLee Min Kyoon\n운영책임이사 COO\n씽크트리 THINKTREE COrp.\n[03909]서울시 마포구 매봉산로 37,DMC산학협력연구센터 4층 404호\n#404, DMC R&D Center, 37,Maebongsan-ro,Mapo-gu, Seoul,Republic of Korea\nT 02 309 2900 M01089054432\nF02 6959 5968 @ mklee70@think-tree.co.kr",
+  "language": "ko",
+  "confidence_score": 0.971738087279456,
+  "has_handwritten_note": false,
+  "domain": "think-tree.co.kr",
+  "warnings": [],
+  "engine": "gemini",
+  "model": "gemini-3.6-flash",
+  "llm_structured_json": {
+    "company": {
+      "name": "씽크트리",
+      "brand_name": null,
+      "aliases": [
+        "THINK TREE corp."
+      ],
+      "registration_no": null,
+      "homepage_url": null
+    },
+    "site": {
+      "name": null,
+      "site_type": null,
+      "address": "[03909] 서울시 마포구 매봉산로 37, DMC산학협력연구센터 4층 404호",
+      "tel": null,
+      "fax": "02 6959 5968"
+    },
+    "departments": [],
+    "person": {
+      "name": "이민균",
+      "name_reading": "Lee Min Kyoon",
+      "aliases": [],
+      "title": "운영책임이사",
+      "secondary_title": "COO",
+      "email": "mklee70@think-tree.co.kr",
+      "mobile": "010 8905 4432",
+      "tel": "02 309 2900"
+    },
+    "has_handwritten_note": false,
+    "extra": {
+      "phones": [
+        "02 309 2900",
+        "010 8905 4432",
+        "02 6959 5968"
+      ],
+      "emails": [
+        "mklee70@think-tree.co.kr"
+      ],
+      "addresses": [
+        "[03909] 서울시 마포구 매봉산로 37, DMC산학협력연구센터 4층 404호",
+        "#404, DMC R&D Center, 37, Maebongsan-ro, Mapo-gu, Seoul, Republic of Korea"
+      ],
+      "unmapped": []
+    }
+  }
+}

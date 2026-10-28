@@ -1,0 +1,53 @@
+{
+  "image_path": "demo/sample2.png",
+  "ocr_raw_text": "김미진대표세무사\n+123-456-7890\n세움세무회계 hello@reallygreatsite.com\nSEUM TAX ACCOUNTING\n123 Anywhere St., Any City\nwww.reallygreatsite.com",
+  "language": "ko",
+  "confidence_score": 0.9908953053610665,
+  "has_handwritten_note": false,
+  "domain": "reallygreatsite.com",
+  "warnings": [],
+  "engine": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "llm_structured_json": {
+    "company": {
+      "name": "세움세무회계",
+      "brand_name": null,
+      "aliases": [
+        "SEUM TAX ACCOUNTING"
+      ],
+      "registration_no": null,
+      "homepage_url": "www.reallygreatsite.com"
+    },
+    "site": {
+      "name": null,
+      "site_type": null,
+      "address": "123 Anywhere St., Any City",
+      "tel": null,
+      "fax": null
+    },
+    "departments": [],
+    "person": {
+      "name": "김미진",
+      "name_reading": null,
+      "aliases": [],
+      "title": "대표세무사",
+      "secondary_title": null,
+      "email": "hello@reallygreatsite.com",
+      "mobile": null,
+      "tel": "+123-456-7890"
+    },
+    "has_handwritten_note": false,
+    "extra": {
+      "phones": [
+        "+123-456-7890"
+      ],
+      "emails": [
+        "hello@reallygreatsite.com"
+      ],
+      "addresses": [
+        "123 Anywhere St., Any City"
+      ],
+      "unmapped": []
+    }
+  }
+}

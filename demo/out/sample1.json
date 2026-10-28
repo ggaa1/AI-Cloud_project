@@ -1,0 +1,55 @@
+{
+  "image_path": "demo/sample1.png",
+  "ocr_raw_text": "이수진\n팀장 마케팅팀\n+123-456-7890\nhello@reallygreatsite.com\n123 Anywhere St., Any City",
+  "language": "ko",
+  "confidence_score": 0.9903741359710694,
+  "has_handwritten_note": false,
+  "domain": "reallygreatsite.com",
+  "warnings": [
+    "회사명 없음"
+  ],
+  "engine": "gemini",
+  "model": "gemini-3.6-flash",
+  "llm_structured_json": {
+    "company": {
+      "name": null,
+      "brand_name": null,
+      "aliases": [],
+      "registration_no": null,
+      "homepage_url": null
+    },
+    "site": {
+      "name": null,
+      "site_type": null,
+      "address": "123 Anywhere St., Any City",
+      "tel": null,
+      "fax": null
+    },
+    "departments": [
+      "마케팅팀"
+    ],
+    "person": {
+      "name": "이수진",
+      "name_reading": null,
+      "aliases": [],
+      "title": "팀장",
+      "secondary_title": null,
+      "email": "hello@reallygreatsite.com",
+      "mobile": null,
+      "tel": "+123-456-7890"
+    },
+    "has_handwritten_note": false,
+    "extra": {
+      "phones": [
+        "+123-456-7890"
+      ],
+      "emails": [
+        "hello@reallygreatsite.com"
+      ],
+      "addresses": [
+        "123 Anywhere St., Any City"
+      ],
+      "unmapped": []
+    }
+  }
+}
